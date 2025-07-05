@@ -13,3 +13,30 @@
     "bycrypt": "5.1.1"
   } 
 }
+
+db.recipes.insertMany([
+     {
+       "name": "Recipe Name Goes Here",
+       "description": "Recipe Description Goes Here",
+       "email": "recipeemail@raddy.co.uk",
+       "ingredients": [
+         "1 level teaspoon baking powder",
+         "1 level teaspoon cayenne pepper",
+         "1 level teaspoon hot smoked paprika",
+       ],
+       "category": "Thai",
+       "image": "southern-friend-chicken.jpg"
+     },
+     {
+       "name": "Recipe Name Goes Here",
+       "description": "Recipe Description Goes Here",
+       "email": "recipeemail@raddy.co.uk",
+       "ingredients": [
+         "1 level teaspoon baking powder",
+         "1 level teaspoon cayenne pepper",
+         "1 level teaspoon hot smoked paprika",
+       ],
+       "category": "Chinese",
+       "image": "southern-friend-chicken.jpg"
+     },
+   ]);
